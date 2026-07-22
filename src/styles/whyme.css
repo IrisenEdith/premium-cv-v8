@@ -1,0 +1,35 @@
+.why-me {
+    max-width: 1300px;
+    margin: 120px auto;
+    padding: 40px;
+}
+
+.strengths-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.strength-card {
+    background: #111827;
+    border: 1px solid rgba(255,255,255,.06);
+    border-radius: 22px;
+    padding: 30px;
+    transition: .35s;
+}
+
+.strength-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(96,165,250,.35);
+}
+
+.strength-card h3 {
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.strength-card p {
+    color: #D1D5DB;
+    line-height: 1.7;
+}
