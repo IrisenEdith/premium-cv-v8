@@ -1,0 +1,22 @@
+{
+  "name": "Iris Duym Portfolio",
+  "short_name": "Iris Portfolio",
+  "description": "Portfolio van Iris Duym - IT Support, Hardware, Webdesign en AI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
