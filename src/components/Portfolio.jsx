@@ -52,7 +52,7 @@ function Portfolio() {
         "CSS",
         "Portfolio"
       ],
-      url: "https://iris-duym-portfolio.netlify.app/"
+      url: "https://iris-duym-portfolio.vercel.app/"
     }
   ];
 
