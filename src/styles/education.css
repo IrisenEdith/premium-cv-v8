@@ -59,8 +59,17 @@
     margin-bottom:20px;
 }
 
-.education-card p {
-  color: #D1D5DB;
-  line-height: 1.7;
-  white-space: pre-line;
+.education-card ul{
+    margin:0;
+    padding-left:22px;
+}
+
+.education-card li{
+    color:#D1D5DB;
+    line-height:1.7;
+    margin-bottom:8px;
+}
+
+.education-card li:last-child{
+    margin-bottom:0;
 }

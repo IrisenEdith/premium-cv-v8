@@ -4,22 +4,39 @@ function Education() {
       period: "2023 – heden",
       title: "IT & Webontwikkeling",
       school: "Praktijk & eigen projecten",
-      description:
-        "• Websites bouwen met WordPress (Syntra, 2023)\n• React, HTML & CSS (zelfstudie en praktijkprojecten)\n• AI-tools: ChatGPT, Claude & Gemini\n• Eigen webprojecten en portfolio"
+      tasks: [
+        "Websites bouwen met WordPress (Syntra, 2023)",
+        "React, HTML & CSS (zelfstudie en praktijkprojecten)",
+        "AI-tools: ChatGPT, Claude & Gemini",
+        "Eigen webprojecten en portfolio"
+      ]
     },
     {
       period: "2013 – 2025",
       title: "Certificaten & Bijscholing",
       school: "Syntra • VDAB • Azerty Zonhoven",
-      description:
-        "• Carwrapping (Syntra, 2024–2025)\n• Websites bouwen met WordPress (Syntra, 2023)\n• Verkooptechnieken (Connect Pro Sales, 2019)\n• Verkooptechnieken (Syntra, 2019)\n• Spreken voor een groep (Syntra, 2019)\n• Webdesign (Syntra, 2016)\n• Google AdWords (Syntra, 2016)\n• Bedrijfsbeheer (Syntra, 2016)\n• ICT-opleiding (Azerty Zonhoven, 2013–2014)\n• Computer Binnenstebuiten (VDAB, 2013)\n• Computerbeveiliging (VDAB, 2013)"
+      tasks: [
+        "Carwrapping (Syntra, 2024–2025)",
+        "Websites bouwen met WordPress (Syntra, 2023)",
+        "Verkooptechnieken (Connect Pro Sales, 2019)",
+        "Verkooptechnieken (Syntra, 2019)",
+        "Spreken voor een groep (Syntra, 2019)",
+        "Webdesign (Syntra, 2016)",
+        "Google AdWords (Syntra, 2016)",
+        "Bedrijfsbeheer (Syntra, 2016)",
+        "ICT-opleiding (Azerty Zonhoven, 2013–2014)",
+        "Computer Binnenstebuiten (VDAB, 2013)",
+        "Computerbeveiliging (VDAB, 2013)"
+      ]
     },
     {
       period: "1979 – 1986",
       title: "Technische diploma's",
       school: "Secundair onderwijs",
-      description:
-        "• HSO – Autotechnieken (A2-diploma, 1982–1986)\n• LSO – Mechanica (A3-diploma, 1979–1982)"
+      tasks: [
+        "HSO – Autotechnieken (A2-diploma, 1982–1986)",
+        "LSO – Mechanica (A3-diploma, 1979–1982)"
+      ]
     }
   ];
 
@@ -50,7 +67,11 @@ function Education() {
               <h4>{item.school}</h4>
             )}
 
-            <p>{item.description}</p>
+            <ul>
+              {item.tasks.map((task, i) => (
+                <li key={i}>{task}</li>
+              ))}
+            </ul>
           </div>
         ))}
       </div>
