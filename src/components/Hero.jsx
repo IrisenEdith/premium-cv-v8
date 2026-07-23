@@ -1,5 +1,6 @@
 import { profile } from "../data/profile";
 import heroImage from "../assets/images/projects/iris-hero.webp";
+import heroImageMobile from "../assets/images/projects/iris-hero-680.webp";
 function Hero() {
   return (
     <section className="hero" id="home">
@@ -53,6 +54,8 @@ function Hero() {
     <img
         className="hero-person"
         src={heroImage}
+        srcSet={`${heroImageMobile} 680w, ${heroImage} 1120w`}
+        sizes="(max-width: 900px) 340px, 560px"
         alt={profile.name}
         width="1120"
         height="1680"

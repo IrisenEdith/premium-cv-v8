@@ -84,6 +84,49 @@
 
 }
 
+.primary-button,
+.secondary-button{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    min-width:190px;
+    height:58px;
+
+    padding:0 30px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.primary-button{
+    background:#2563EB;
+    color:white;
+}
+
+.primary-button:hover{
+    transform:translateY(-4px);
+    box-shadow:0 20px 40px rgba(96,165,250,.35);
+}
+
+.secondary-button{
+    border:2px solid #60A5FA;
+    color:#60A5FA;
+}
+
+.secondary-button:hover{
+    background:#2563EB;
+    color:white;
+    border-color:#2563EB;
+    transform:translateY(-4px);
+}
+
 @media (max-width: 640px){
 
     .contact{
