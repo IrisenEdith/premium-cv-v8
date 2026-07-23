@@ -72,7 +72,7 @@
 /* ===== AFBEELDING ===== */
 
 .project-image {
-  height: 240px;
+  aspect-ratio: 8 / 5;
   overflow: hidden;
 
   border-bottom: 1px solid rgba(255,255,255,.08);
@@ -197,10 +197,6 @@
 
   .section-title h2{
     font-size:2.3rem;
-  }
-
-  .project-image{
-    height:220px;
   }
 
 }
