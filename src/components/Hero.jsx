@@ -2,7 +2,7 @@ import { profile } from "../data/profile";
 import heroImage from "../assets/images/projects/iris-hero.webp";
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
 
       <div className="hero-content">
 
