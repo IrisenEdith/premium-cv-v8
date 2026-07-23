@@ -8,6 +8,7 @@
   max-width: 1300px;
   margin: 0 auto;
   padding: 120px 40px 80px;
+  overflow: hidden;
 }
 
 .hero-content {
