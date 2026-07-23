@@ -44,7 +44,7 @@ function Education() {
     <section className="education" id="opleiding">
       <div className="section-title">
         <span>Opleidingen</span>
-        <h2>Opleidingen & Professionele Ontwikkeling</h2>
+        <h2>Opleidingen & professionele ontwikkeling</h2>
 
         <p className="section-description">
           Ik blijf mezelf voortdurend ontwikkelen via opleidingen,
