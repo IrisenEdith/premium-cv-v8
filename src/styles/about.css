@@ -16,6 +16,10 @@
 
 .section-label{
 
+    display:block;
+
+    text-align:center;
+
     color:#60A5FA;
 
     text-transform:uppercase;
