@@ -1,5 +1,5 @@
 import { profile } from "../data/profile";
-import heroImage from "../assets/images/projects/iris-hero.png";
+import heroImage from "../assets/images/projects/iris-hero.webp";
 function Hero() {
   return (
     <section className="hero">
@@ -54,6 +54,10 @@ function Hero() {
         className="hero-person"
         src={heroImage}
         alt={profile.name}
+        width="1120"
+        height="1680"
+        fetchpriority="high"
+        decoding="async"
     />
 </div>
 

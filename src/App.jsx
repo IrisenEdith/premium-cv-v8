@@ -6,8 +6,6 @@ import WhyHireMe from "./components/WhyHireMe";
 import "./styles/whyhire.css";
 import Contact from "./components/Contact";
 import "./styles/contact.css";
-import Projects from "./components/Projects";
-import "./styles/projects.css";
 import Education from "./components/Education";
 import "./styles/education.css";
 import Skills from "./components/Skills";

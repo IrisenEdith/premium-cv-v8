@@ -1,11 +1,13 @@
-import ifixitImage from "../assets/images/projects/ifixit.png";
-import irisZingtImage from "../assets/images/projects/iris-zingt.png";
+import ifixitImage from "../assets/images/projects/ifixit.webp";
+import irisZingtImage from "../assets/images/projects/iris-zingt.webp";
 
 function Portfolio() {
   const projects = [
     {
       title: "I FIX IT",
       image: ifixitImage,
+      imageWidth: 900,
+      imageHeight: 322,
       imagePosition: "41%",
       description:
         "Moderne website ontwikkeld voor een zelfstandige IT-specialist. De focus ligt op een persoonlijke dienstverlening, duidelijke informatie en een professionele uitstraling.",
@@ -22,6 +24,8 @@ function Portfolio() {
     {
       title: "IRIS Zingt Voor Jou",
       image: irisZingtImage,
+      imageWidth: 900,
+      imageHeight: 444,
       description:
         "Persoonlijke artiestenwebsite waarop bezoekers mijn muziek, videoclips en nieuwste singles kunnen ontdekken in een warme en overzichtelijke omgeving.",
       tags: [
@@ -76,6 +80,10 @@ function Portfolio() {
                 <img
                   src={project.image}
                   alt={project.title}
+                  width={project.imageWidth}
+                  height={project.imageHeight}
+                  loading="lazy"
+                  decoding="async"
                   style={{
                     objectPosition: project.imagePosition || "center"
                   }}
