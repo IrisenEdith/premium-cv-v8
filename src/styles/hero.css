@@ -425,9 +425,9 @@
     }
 
     .hero::before{
-        width:320px;
-        height:320px;
-        right:-100px;
+        width:280px;
+        height:280px;
+        right:10px;
         top:100px;
     }
 
