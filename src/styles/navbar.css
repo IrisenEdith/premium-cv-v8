@@ -88,3 +88,39 @@ nav a:hover::after{
     width:100%;
 
 }
+
+@media (max-width: 640px){
+
+    .navbar{
+        padding:16px 20px;
+    }
+
+    .logo{
+        font-size:1.2rem;
+    }
+
+    nav{
+        gap:16px;
+    }
+
+    nav a{
+        font-size:.88rem;
+    }
+
+}
+
+@media (max-width: 360px){
+
+    .navbar{
+        padding:14px 14px;
+    }
+
+    nav{
+        gap:10px;
+    }
+
+    nav a{
+        font-size:.8rem;
+    }
+
+}

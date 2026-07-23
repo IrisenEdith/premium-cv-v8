@@ -75,3 +75,18 @@
     border-color:rgba(96,165,250,.35);
 
 }
+
+@media (max-width: 900px){
+
+    .about{
+        grid-template-columns:1fr;
+        gap:40px;
+        padding:24px;
+        margin:80px auto;
+    }
+
+    .about h2{
+        font-size:2.2rem;
+    }
+
+}

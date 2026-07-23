@@ -385,3 +385,71 @@
 
     filter: blur(40px);
 }
+
+@media (max-width: 900px){
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding:130px 24px 60px;
+        gap:50px;
+    }
+
+    .hero-content{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .description{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .hero-buttons{
+        align-items:center;
+        width:100%;
+    }
+
+    .stats{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .hero h1{
+        font-size:2.8rem;
+    }
+
+    .hero-person{
+        width:min(340px, 70vw);
+    }
+
+    .hero::before{
+        width:320px;
+        height:320px;
+        right:-100px;
+        top:100px;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    .hero h1{
+        font-size:2.1rem;
+    }
+
+    .description{
+        font-size:1.05rem;
+    }
+
+    .stats{
+        gap:24px;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        width:100%;
+    }
+
+}
