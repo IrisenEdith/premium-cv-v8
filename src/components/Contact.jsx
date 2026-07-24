@@ -57,6 +57,15 @@ function Contact() {
             Download CV
           </a>
 
+          <a
+            className="secondary-button"
+            href="/motivatiebrief.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download mijn motivatiebrief
+          </a>
+
         </div>
 
       </div>
