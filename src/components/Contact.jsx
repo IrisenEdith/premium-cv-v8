@@ -50,7 +50,7 @@ function Contact() {
 
           <a
             className="secondary-button"
-            href="/cv.pdf"
+            href="/Iris%20Duym%20CV.pdf"
             download="Iris Duym CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -60,7 +60,7 @@ function Contact() {
 
           <a
             className="secondary-button"
-            href="/motivatiebrief.pdf"
+            href="/Iris%20Duym%20motivatiebrief.pdf"
             download="Iris Duym motivatiebrief.pdf"
             target="_blank"
             rel="noopener noreferrer"
