@@ -51,6 +51,7 @@ function Contact() {
           <a
             className="secondary-button"
             href="/cv.pdf"
+            download="Iris Duym CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -60,6 +61,7 @@ function Contact() {
           <a
             className="secondary-button"
             href="/motivatiebrief.pdf"
+            download="Iris Duym motivatiebrief.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
