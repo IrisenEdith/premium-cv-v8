@@ -22,7 +22,7 @@ function Portfolio() {
     },
 
     {
-      title: "IRIS Zingt Voor Jou",
+      title: "Iris Zingt voor jou",
       image: irisZingtImage,
       imageWidth: 960,
       imageHeight: 600,
